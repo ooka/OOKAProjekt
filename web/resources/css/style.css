@@ -1,0 +1,40 @@
+/* 
+    Document   : style
+    Created on : 30.10.2012, 12:32:05
+    Author     : Micha
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+  display: block;
+}
+
+
+.common-table{   
+	border-collapse:collapse;
+}
+
+.common-table td{   
+	padding: 10px;
+}
+ 
+.common-table-header{
+	text-align:left;
+	background:none repeat scroll 0 0 #E5E5E5;
+	border-bottom:1px solid #BBBBBB;
+	padding:8px;
+}
+ 
+.common-table-odd-row{
+	text-align:left;
+	background:none repeat scroll 0 0 #FFFFFF;
+	border-top:1px solid #BBBBBB;
+}
+ 
+.common-table-even-row{
+	text-align:left;
+	background:none repeat scroll 0 0 #F9F9F9;
+	border-top:1px solid #BBBBBB;
+}
+
